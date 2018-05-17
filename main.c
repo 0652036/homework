@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-int i,sum;
+int HomeWork,Sum;
 int main(int argc, char *argv[]) {
-	for(i=0;i<10;i++){
-		sum=sum+i;
+	for(HomeWork=0;HomeWork<10;HomeWork++){
+		Sum=Sum+HomeWork;
 	}
-	printf("sum=%d",sum);
+	printf("Sum=%d",Sum);
 	return 0;
 }
